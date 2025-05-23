@@ -9,7 +9,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "nilayshenai",
-  description: "A normal CS aficionado",
+  description: "Nilay D. Shenai",
+  themeColor: "#121212",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -24,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning className="bg-[#121212]">
+      <body className={`${inter.className} bg-[#121212]`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
