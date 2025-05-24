@@ -212,7 +212,8 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-6 bg-[#1E1E1E] rounded-lg border border-[#2C2C2C]">
                   <h3 className="text-lg font-medium mb-2">Education</h3>
-                  <p className="text-sm text-[#B0B0B0]">B.Tech CSE, MIT Manipal</p>
+                  <p className="text-sm text-[#B0B0B0]">B.Tech CSE (Student),</p>
+                  <p className="text-sm text-[#B0B0B0]">MIT Manipal</p>
                 </div>
                 <div className="p-6 bg-[#1E1E1E] rounded-lg border border-[#2C2C2C]">
                   <h3 className="text-lg font-medium mb-2">Experience</h3>

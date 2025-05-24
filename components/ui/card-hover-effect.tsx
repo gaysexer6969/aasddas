@@ -25,6 +25,8 @@ export const CardHoverEffect = ({
           className="relative group block p-2 h-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <motion.div
             className="absolute inset-0 rounded-xl bg-[#1E1E1E] border border-[#2C2C2C] shadow-md"
